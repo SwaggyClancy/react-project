@@ -2,6 +2,17 @@ import Card from "./components/Card.js";
 import Drawer from "./components/Drawer.js";
 import Header from "./components/Header.js";
 
+const arr = [
+  {
+    name: "Мужские кроссовки Nike blazer Mid Suede",
+    price: 12999,
+  },
+  {
+    name: "Мужские кроссовки Nike Air Max Suede",
+    price: 15600,
+  },
+];
+
 function App() {
   return (
     <div className="wrapper clear">
@@ -18,7 +29,7 @@ function App() {
         </div>
 
         <div className="d-flex">
-          <Card />
+          <Card title="asd" price={123} imageURL={"/img/sneakers/1.jpg"} />
         </div>
       </div>
     </div>
